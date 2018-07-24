@@ -19,7 +19,7 @@ public class VarManagerThreadWrapperTest extends PowerMockBase {
             System.out.println("test");
         }));
         try {
-            Thread.currentThread().sleep(1000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -33,7 +33,7 @@ public class VarManagerThreadWrapperTest extends PowerMockBase {
             System.out.println("test");
         }, TestInvocationHandler.class));
         try {
-            Thread.currentThread().sleep(1000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -49,7 +49,7 @@ public class VarManagerThreadWrapperTest extends PowerMockBase {
             return 1;
         }));
         try {
-            Thread.currentThread().sleep(1000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -64,7 +64,7 @@ public class VarManagerThreadWrapperTest extends PowerMockBase {
             return 1;
         }, TestInvocationHandler.class));
         try {
-            Thread.currentThread().sleep(1000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

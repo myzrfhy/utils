@@ -42,9 +42,10 @@ public class VarManagerInvocationHandler implements InvocationHandler {
     }
 
     protected void beforeInvoke() {
+        //do something
     }
 
     protected void afterInvoke() {
-
+        //do something
     }
 }

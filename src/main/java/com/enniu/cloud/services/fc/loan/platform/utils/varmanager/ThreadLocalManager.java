@@ -29,7 +29,7 @@ public class ThreadLocalManager {
     }
 
     public void close(){
-        switchOpen.set(false);
+        switchOpen.remove();
     }
 
     public <T> void put(String key,T val){
@@ -72,7 +72,7 @@ public class ThreadLocalManager {
         Objects.requireNonNull(key);
         Objects.requireNonNull(f);
 
-        if(!switchOpen.get()){
+        if(switchOpen.get() == null || !switchOpen.get()){
             return f.apply();
         }
 
@@ -108,7 +108,7 @@ public class ThreadLocalManager {
         Objects.requireNonNull(key);
         Objects.requireNonNull(f);
 
-        if(!switchOpen.get()){
+        if(switchOpen.get() == null || !switchOpen.get()){
             return f.apply();
         }
 

@@ -44,7 +44,6 @@ public class VarManagerThreadWrapper {
             invocationHandler.setTarget(r);
             return invocationHandler;
         } catch (InstantiationException e) {
-            e.printStackTrace();
             throw new VarManagerException("init err,class:" + invocationHandlerClass.getSimpleName());
         } catch (IllegalAccessException e) {
             throw new VarManagerException(

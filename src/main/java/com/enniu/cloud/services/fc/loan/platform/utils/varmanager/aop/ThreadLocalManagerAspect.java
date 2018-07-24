@@ -32,10 +32,11 @@ public class ThreadLocalManagerAspect {
         //如果没有指定key，则用类名+方法名+参数组合key
         if (StringUtils.isBlank(key)) {
             StringBuilder sb = new StringBuilder();
-            sb.append(method.getClass().getSimpleName()).append(":").append(method.getName());
+            sb.append(joinPoint.getTarget().getClass().getSimpleName()).append(":").append(method.getName()).append(":");
             for (Object o : joinPoint.getArgs()) {
                 sb.append(o.toString()).append(":");
             }
+            key = sb.toString();
         }
 
         return ThreadLocalManager.applyThrow(key, joinPoint::proceed);
