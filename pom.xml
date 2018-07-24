@@ -6,7 +6,13 @@
 
     <groupId>com.enniu.cloud.services</groupId>
     <artifactId>fc.loan.platform.utils</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>eventbus</module>
+        <module>metrics</module>
+        <module>variablemanager</module>
+    </modules>
 
     <dependencies>
         <dependency>

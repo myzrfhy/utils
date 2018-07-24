@@ -6,11 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fc-loan-platform-utils" />
+        <module name="eventbus" />
+        <module name="metrics" />
+        <module name="variablemanager" />
+        <module name="varma" />
+        <module name="varmanager2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eventbus" target="1.8" />
       <module name="fc-loan-platform-utils" target="1.8" />
+      <module name="fc-order-service-varma" target="1.8" />
+      <module name="metrics" target="1.8" />
+      <module name="variablemanager" target="1.8" />
+      <module name="varma" target="1.8" />
+      <module name="varmanager" target="1.8" />
+      <module name="varmanager2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

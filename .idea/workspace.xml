@@ -2,22 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9809628f-b34e-4e92-b87c-9ca8113947d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/testutil/TestUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.class" afterPath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.class" afterPath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.class" afterPath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/2914f34f9169dd6492175938e25bf855f157df72" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b8ad5f07bcd22f6d3880e8f6dd6c8894d777742" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bc17ebfcd020aee82d7443a8a5536cedecdb6f1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3953c6bb422824df315b3751f35d95924763ad0e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52c00abd829ae150a5326d8ea9209c72727f29b4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a23573617ca2595c7ea2eb797f06abdc770f673b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5251de19d8a3841f8667fbb897ce9e46315f533" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca9214e06bf875e1bd7b85114f1db69516e1f826" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2140766c2a859030d83afd0195a3e9adaee7610" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8bafae4ddcadbf39f99573997ddc69be40174f8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8e289c88b8a51ef4b0eb4d3adadae333d7c489a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3f9a169f8cb285b06ccda7a4190b9bd05cdf074" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e70bcf8f098373a18ee3f82500ccdf0e1d48454f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaada62de4fb8e492fa2bb315ae3aabf2f92effd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/target/test-classes/testutil/PowerMockBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/target/test-classes/testutil/MockBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/target/test-classes/testutil/PowerMockBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/target/test-classes/testutil/TestUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest$Print.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/MockBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/TestUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/eventbus.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/src/test/java/testutil/PowerMockBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/metrics.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/src/test/java/testutil/MockBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/src/test/java/testutil/PowerMockBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/src/test/java/testutil/TestUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/MockBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/TestUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/variablemanager.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest$Print.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/VarManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLCache.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/annotations/TLCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/annotations/TLClear.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/exception/VarManagerException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/EnniuListenerContainerFactory.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerListenerContainerFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/TLMessageListenerContainer.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerMessageListenerContainer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/ThreadLocalFilter.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/filter/VarManagerFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ApplyFunction.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ApplyFunction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ThrowableFunction.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ThrowableFunction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/VarManagerFunction.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/VarManagerFunction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerInvocationHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerThreadWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/MockBase.java" afterPath="$PROJECT_DIR$/eventbus/src/test/java/testutil/MockBase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/PowerMockBase.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/PowerMockBase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/TestInvocationHandler.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/TestInvocationHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/TestUtils.java" afterPath="$PROJECT_DIR$/eventbus/src/test/java/testutil/TestUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLCache.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLCache.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/EnniuListenerContainerFactory.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/EnniuListenerContainerFactory.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/TLMessageListenerContainer.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/TLMessageListenerContainer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/ThreadLocalFilter.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/ThreadLocalFilter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ApplyFunction.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ApplyFunction.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ThrowableFunction.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ThrowableFunction.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/VarManagerFunction.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/VarManagerFunction.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper$MultiSharingRunnable.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper$MultiSharingRunnable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.class" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/MockBase.class" afterPath="$PROJECT_DIR$/eventbus/target/test-classes/testutil/MockBase.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/PowerMockBase.class" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/PowerMockBase.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/TestInvocationHandler.class" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/TestInvocationHandler.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/TestUtils.class" afterPath="$PROJECT_DIR$/eventbus/target/test-classes/testutil/TestUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2a82ccd52a69db52944ebab1fdd16198827841e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2a82ccd52a69db52944ebab1fdd16198827841e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e67b26be395eec32c91592e32d12801aecc6061c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e67b26be395eec32c91592e32d12801aecc6061c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.java" afterPath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eventbus/target/" />
+    <ignored path="$PROJECT_DIR$/metrics/target/" />
+    <ignored path="$PROJECT_DIR$/varma/target/" />
+    <ignored path="$PROJECT_DIR$/varmanager2/target/" />
+    <ignored path="$PROJECT_DIR$/varmanager/target/" />
+    <ignored path="$PROJECT_DIR$/variablemanager/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,131 +127,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VarManagerInvocationHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadLocalManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#2565#2566#0" expanded="true" />
-                <element signature="e#2606#2607#0" expanded="true" />
-                <element signature="e#2733#2734#0" expanded="true" />
-                <element signature="e#2818#2819#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VarManagerThreadWrapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="VarManagerThreadWrapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.java">
+        <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+            <state relative-caret-position="570">
+              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#453#483#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#1017#1047#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1382#1383#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testutil/TestUtils.java">
+      <file leaf-file-name="UtilityClass.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar!/lombok/experimental/UtilityClass.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForkJoinPool.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3039">
-              <caret line="169" column="41" lean-forward="false" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="41" />
+            <state relative-caret-position="152">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractExecutorService.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="70" column="59" lean-forward="true" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="136" column="45" lean-forward="true" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executor.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MultiSharingTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.java">
+        <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+            <state relative-caret-position="334">
+              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VarManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/VarManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VarManagerAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VarManagerMessageListenerContainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerMessageListenerContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VarManagerListenerContainerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerListenerContainerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VarManagerFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/filter/VarManagerFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,6 +232,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>varmanager</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -209,7 +266,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testutil/MockitoTestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/testutil/PowerMockitoTestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/testutil/MockBase.java" />
@@ -224,6 +280,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java" />
+        <option value="$PROJECT_DIR$/eventbus/src/main/java/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java" />
+        <option value="$PROJECT_DIR$/metrics/src/test/java/testutil/PowerMockBase.java" />
+        <option value="$PROJECT_DIR$/eventbus/src/test/java/testutil/PowerMockBase.java" />
+        <option value="$PROJECT_DIR$/varmanager/src/test/java/utils/varmanager/thread/MultiSharingTest.java" />
+        <option value="$PROJECT_DIR$/varmanager/pom.xml" />
+        <option value="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/ThreadLocalManager.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/ThreadLocalManagerAspect.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerMessageListenerContainer.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerListenerContainerFactory.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/filter/VarManagerFilter.java" />
+        <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerThreadWrapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -253,7 +324,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -266,6 +337,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,19 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testutil" />
+              <option name="myItemId" value="variablemanager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,23 +375,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="variablemanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,29 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc-loan-platform-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc-loan-platform-utils" />
+              <option name="myItemId" value="variablemanager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -388,6 +415,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="variablemanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -397,10 +428,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -418,6 +445,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="variablemanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -427,10 +458,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -439,40 +466,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="thread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc-loan-platform-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc-loan-platform-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,18 +487,26 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/variablemanager/src/test/java" />
+      <recent name="$PROJECT_DIR$/variablemanager/src/main/java" />
+      <recent name="$PROJECT_DIR$/metrics/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils" />
+      <recent name="$PROJECT_DIR$/varmanager/src/test/java/com.enniu.cloud.services.fc.loan.platform.utils" />
+      <recent name="$PROJECT_DIR$/varmanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/testutil" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.enniu.cloud.services.fc.loan.platform.utils" />
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.enniu.cloud.services.fc.loan.platform.utils.varmanager.annotations" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/varmanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils" />
+      <recent name="$PROJECT_DIR$/varmanager/src/main/java" />
+      <recent name="$PROJECT_DIR$/varmanager/src/test/java" />
+      <recent name="$PROJECT_DIR$/eventbus/src/test/java" />
+      <recent name="$PROJECT_DIR$/metrics/src/test/java" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.VarManagerThreadWrapperTest">
@@ -949,6 +956,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1047,7 +1076,8 @@
       <workItem from="1530782447250" duration="22569000" />
       <workItem from="1531453433339" duration="3711000" />
       <workItem from="1531907457061" duration="2446000" />
-      <workItem from="1532318493977" duration="16724000" />
+      <workItem from="1532318493977" duration="18105000" />
+      <workItem from="1532423423856" duration="2686000" />
     </task>
     <servers />
   </component>
@@ -1084,7 +1114,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54085000" />
+    <option name="totallyTimeSpent" value="58152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1096,13 +1126,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-306" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="-306" y="-1080" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1112,17 +1142,18 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41768292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41768292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24593496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23908414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24121405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2780822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1131,7 +1162,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1189,205 +1219,233 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/IllegalAccessException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
-          <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="85" column="58" lean-forward="false" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/Before.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="460">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/SuppressWarnings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="248">
+          <caret line="59" column="67" lean-forward="false" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/FastCharsetProvider.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="409" column="0" lean-forward="false" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/reflect/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/nio/charset/StandardCharsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="529" column="0" lean-forward="false" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
+        <state relative-caret-position="172">
+          <caret line="218" column="17" lean-forward="false" selection-start-line="218" selection-start-column="17" selection-end-line="218" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/repository/org/powermock/powermock-module-junit4-common/1.6.6/powermock-module-junit4-common-1.6.6.jar!/org/powermock/modules/junit4/common/internal/impl/JUnit4TestSuiteChunkerImpl.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        <state relative-caret-position="-1159">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/NoSuchMethodException.java">
+    <entry file="file://$PROJECT_DIR$/fcorderservicemetrics/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/varmanager/src/main/java/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java" />
+    <entry file="file://$PROJECT_DIR$/metrics/src/main/java/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java" />
+    <entry file="file://$PROJECT_DIR$/eventbus/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testutil/MockBase.java">
+    <entry file="file://$PROJECT_DIR$/metrics/src/test/java/testutil/MockBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventbus/src/test/java/testutil/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/varmanager/src/test/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/MultiSharingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventbus/src/test/java/testutil/TestInvocationHandler.java" />
+    <entry file="file://$PROJECT_DIR$/metrics/src/test/java/testutil/TestInvocationHandler.java" />
+    <entry file="file://$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/ReflectiveOperationException.java">
+    <entry file="file://$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/InstantiationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="398" column="0" lean-forward="false" selection-start-line="398" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="263" column="32" lean-forward="false" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.java">
+    <entry file="file://$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.java">
+    <entry file="file://$PROJECT_DIR$/metrics/src/test/java/testutil/PowerMockBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/TLMessageListenerContainer.java">
+    <entry file="file://$PROJECT_DIR$/eventbus/src/test/java/testutil/MockBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ApplyFunction.java">
+    <entry file="file://$PROJECT_DIR$/metrics/src/test/java/testutil/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventbus/src/test/java/testutil/PowerMockBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/testutil/MockBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/varmanager/src/test/java/PowerMockBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/varmanager/src/test/java/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/varmanager2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/exception/VarManagerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/annotations/TLClear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/varma/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/varmanager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/VarManagerFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ThrowableFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -1395,221 +1453,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/VarManagerFunction.java">
+    <entry file="file://$PROJECT_DIR$/varma/varma.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ThrowableFunction.java">
+    <entry file="file://$PROJECT_DIR$/fc-loan-platform-utils.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="88" lean-forward="false" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/metrics.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/varmanager/varmanager.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/ThreadLocalFilter.java">
+    <entry file="file://$PROJECT_DIR$/variablemanager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/EnniuListenerContainerFactory.java">
+    <entry file="file://$PROJECT_DIR$/variablemanager/variablemanager.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar!/lombok/experimental/UtilityClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/VarManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerMessageListenerContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerListenerContainerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.java">
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ApplyFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/BiConsumer.java">
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/filter/VarManagerFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testutil/PowerMockBase.java">
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerThreadWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testutil/TestInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#2044#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="617" column="17" lean-forward="false" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#453#483#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#1017#1047#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="510">
+          <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java">
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2733#2734#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testutil/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="136" column="45" lean-forward="true" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="70" column="59" lean-forward="true" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3039">
-          <caret line="169" column="41" lean-forward="false" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="570">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java">
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/VarManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1665,7 +1657,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>fc-loan-platform-utils</last-edited>
+          <last-edited>fc-order-service-varma</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

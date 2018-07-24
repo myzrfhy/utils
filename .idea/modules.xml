@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
       <module fileurl="file://$PROJECT_DIR$/fc-loan-platform-utils.iml" filepath="$PROJECT_DIR$/fc-loan-platform-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metrics/metrics.iml" filepath="$PROJECT_DIR$/metrics/metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variablemanager/variablemanager.iml" filepath="$PROJECT_DIR$/variablemanager/variablemanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/varma/varma.iml" filepath="$PROJECT_DIR$/varma/varma.iml" />
     </modules>
   </component>
 </project>
