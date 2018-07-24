@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9809628f-b34e-4e92-b87c-9ca8113947d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/2914f34f9169dd6492175938e25bf855f157df72" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b8ad5f07bcd22f6d3880e8f6dd6c8894d777742" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bc17ebfcd020aee82d7443a8a5536cedecdb6f1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3953c6bb422824df315b3751f35d95924763ad0e" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52c00abd829ae150a5326d8ea9209c72727f29b4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a23573617ca2595c7ea2eb797f06abdc770f673b" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5251de19d8a3841f8667fbb897ce9e46315f533" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca9214e06bf875e1bd7b85114f1db69516e1f826" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2140766c2a859030d83afd0195a3e9adaee7610" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8bafae4ddcadbf39f99573997ddc69be40174f8" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8e289c88b8a51ef4b0eb4d3adadae333d7c489a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3f9a169f8cb285b06ccda7a4190b9bd05cdf074" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e70bcf8f098373a18ee3f82500ccdf0e1d48454f" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaada62de4fb8e492fa2bb315ae3aabf2f92effd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/target/test-classes/testutil/PowerMockBase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/target/test-classes/testutil/MockBase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/target/test-classes/testutil/PowerMockBase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/target/test-classes/testutil/TestUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest$Print.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/MockBase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/TestUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/eventbus.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventbus/src/test/java/testutil/PowerMockBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/metrics.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/src/test/java/testutil/MockBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/src/test/java/testutil/PowerMockBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrics/src/test/java/testutil/TestUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/MockBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/TestUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variablemanager/variablemanager.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest$Print.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.java" afterPath="$PROJECT_DIR$/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/VarManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLCache.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/annotations/TLCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/annotations/TLClear.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/exception/VarManagerException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/EnniuListenerContainerFactory.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerListenerContainerFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/TLMessageListenerContainer.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerMessageListenerContainer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/ThreadLocalFilter.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/filter/VarManagerFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ApplyFunction.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ApplyFunction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ThrowableFunction.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ThrowableFunction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/VarManagerFunction.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/VarManagerFunction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerInvocationHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerThreadWrapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/MultiSharingTest.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/MockBase.java" afterPath="$PROJECT_DIR$/eventbus/src/test/java/testutil/MockBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/PowerMockBase.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/PowerMockBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/TestInvocationHandler.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/testutil/TestInvocationHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/testutil/TestUtils.java" afterPath="$PROJECT_DIR$/eventbus/src/test/java/testutil/TestUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.class" afterPath="$PROJECT_DIR$/eventbus/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/ThreadLocalManager.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/VarManager.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLCache.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLCache.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/annotations/TLClear.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/ThreadLocalManagerAspect.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/exception/VarManagerException.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/EnniuListenerContainerFactory.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/EnniuListenerContainerFactory.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/TLMessageListenerContainer.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/TLMessageListenerContainer.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/ThreadLocalFilter.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/ThreadLocalFilter.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ApplyFunction.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ApplyFunction.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ThrowableFunction.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/ThrowableFunction.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/VarManagerFunction.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/function/VarManagerFunction.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerInvocationHandler.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper$MultiSharingRunnable.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper$MultiSharingRunnable.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.class" afterPath="$PROJECT_DIR$/variablemanager/target/classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapper.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/varmanager/thread/VarManagerThreadWrapperTest.class" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/MockBase.class" afterPath="$PROJECT_DIR$/eventbus/target/test-classes/testutil/MockBase.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/PowerMockBase.class" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/PowerMockBase.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/TestInvocationHandler.class" afterPath="$PROJECT_DIR$/variablemanager/target/test-classes/testutil/TestInvocationHandler.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/testutil/TestUtils.class" afterPath="$PROJECT_DIR$/eventbus/target/test-classes/testutil/TestUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2a82ccd52a69db52944ebab1fdd16198827841e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2a82ccd52a69db52944ebab1fdd16198827841e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e67b26be395eec32c91592e32d12801aecc6061c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e67b26be395eec32c91592e32d12801aecc6061c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java" afterPath="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,21 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="532">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiSharingTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MultiSharingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="551">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -285,7 +194,6 @@
         <option value="$PROJECT_DIR$/eventbus/src/test/java/testutil/PowerMockBase.java" />
         <option value="$PROJECT_DIR$/varmanager/src/test/java/utils/varmanager/thread/MultiSharingTest.java" />
         <option value="$PROJECT_DIR$/varmanager/pom.xml" />
-        <option value="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java" />
         <option value="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.java" />
         <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/ThreadLocalManager.java" />
         <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/ThreadLocalManagerAspect.java" />
@@ -295,6 +203,7 @@
         <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/filter/VarManagerFilter.java" />
         <option value="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerThreadWrapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java" />
       </list>
     </option>
   </component>
@@ -380,6 +289,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fc-loan-platform-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fc-loan-platform-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="variablemanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1077,7 +1024,7 @@
       <workItem from="1531453433339" duration="3711000" />
       <workItem from="1531907457061" duration="2446000" />
       <workItem from="1532318493977" duration="18105000" />
-      <workItem from="1532423423856" duration="2686000" />
+      <workItem from="1532423423856" duration="2747000" />
     </task>
     <servers />
   </component>
@@ -1114,7 +1061,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58152000" />
+    <option name="totallyTimeSpent" value="58213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1501,16 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar!/lombok/experimental/UtilityClass.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1599,9 +1536,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="532">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
