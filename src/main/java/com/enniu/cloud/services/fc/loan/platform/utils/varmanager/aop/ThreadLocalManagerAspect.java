@@ -3,6 +3,7 @@ package com.enniu.cloud.services.fc.loan.platform.utils.varmanager.aop;
 
 import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.ThreadLocalManager;
 import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.annotations.TLCache;
+import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.annotations.TLClear;
 import java.lang.reflect.Method;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -40,5 +41,23 @@ public class ThreadLocalManagerAspect {
         }
 
         return ThreadLocalManager.applyThrow(key, joinPoint::proceed);
+    }
+
+    @Around("@annotation(com.enniu.cloud.services.fc.order.service.varmanager.annotations.TLClear)")
+    public Object aroundTLClear(ProceedingJoinPoint joinPoint) throws Throwable {
+        MethodSignature signature = (MethodSignature) joinPoint.getSignature();
+        Method method = signature.getMethod();
+        method.setAccessible(true);
+        TLClear tlClear = method.getAnnotation(TLClear.class);
+
+        String key = tlClear.key();
+        //如果没有指定key，则清除所有
+        if (StringUtils.isBlank(key)) {
+            ThreadLocalManager.clear();
+        } else {
+            ThreadLocalManager.remove(key);
+        }
+
+        return joinPoint.proceed();
     }
 }

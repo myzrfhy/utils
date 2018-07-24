@@ -1,8 +1,11 @@
 package com.enniu.cloud.services.fc.loan.platform.utils.varmanager.thread;
 
+import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.ThreadLocalManager;
 import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.exception.VarManagerException;
 import java.lang.reflect.Proxy;
+import java.util.Map;
 import java.util.concurrent.Callable;
+import lombok.AllArgsConstructor;
 import lombok.experimental.UtilityClass;
 
 /**
@@ -48,6 +51,26 @@ public class VarManagerThreadWrapper {
         } catch (IllegalAccessException e) {
             throw new VarManagerException(
                 "check constructor access level,class:" + invocationHandlerClass.getSimpleName());
+        }
+    }
+
+
+    Runnable multiSharing(Runnable r){
+        //parent线程与child线程分享共享变量
+        Map<String,Object> sharingVarMap = ThreadLocalManager.getOrInitShareMap();
+        return wrap(new MultiSharingRunnable(r, sharingVarMap));
+    }
+
+    @AllArgsConstructor
+    private class MultiSharingRunnable implements Runnable{
+
+        Runnable r;
+        Map<String,Object> sharingVarMap;
+
+        @Override
+        public void run() {
+            ThreadLocalManager.initShareMap(sharingVarMap);
+            r.run();
         }
     }
 }

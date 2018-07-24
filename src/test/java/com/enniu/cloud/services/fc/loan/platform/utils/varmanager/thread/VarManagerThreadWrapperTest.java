@@ -1,10 +1,12 @@
 package com.enniu.cloud.services.fc.loan.platform.utils.varmanager.thread;
 
-import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.Callable;
+import java.util.concurrent.CountDownLatch;
 import org.junit.Test;
 import org.powermock.api.mockito.PowerMockito;
 import testutil.PowerMockBase;
 import testutil.TestInvocationHandler;
+import testutil.TestUtils;
 
 /**
  * @author liuyihan
@@ -13,58 +15,47 @@ import testutil.TestInvocationHandler;
 public class VarManagerThreadWrapperTest extends PowerMockBase {
 
     @Test
-    public void wrap_runnable(){
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        forkJoinPool.submit(VarManagerThreadWrapper.wrap(()->{
-            System.out.println("test");
-        }));
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        PowerMockito.verifyStatic();
+    @SuppressWarnings("unchecked")
+    public void wrap_runnable() {
+        runAndVerify(VarManagerThreadWrapper.wrap(() -> System.out.println("test")));
     }
 
     @Test
-    public void wrap_runnable_extend(){
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        forkJoinPool.submit(VarManagerThreadWrapper.wrap(()->{
-            System.out.println("test");
-        }, TestInvocationHandler.class));
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        PowerMockito.verifyStatic();
+    public void wrap_runnable_extend() {
+        runAndVerify(VarManagerThreadWrapper.wrap(() -> System.out.println("test"), TestInvocationHandler.class));
     }
 
     @Test
     @SuppressWarnings("unchecked")
-    public void wrap_callable(){
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        forkJoinPool.submit(VarManagerThreadWrapper.wrap(()->{
+    public void wrap_callable() {
+        runAndVerify(VarManagerThreadWrapper.wrap(() -> {
             System.out.println("test");
             return 1;
         }));
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        PowerMockito.verifyStatic();
     }
 
     @Test
-    public void wrap_callable_extend(){
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        forkJoinPool.submit(VarManagerThreadWrapper.wrap(()->{
+    @SuppressWarnings("unchecked")
+    public void wrap_callable_extend() {
+        runAndVerify(VarManagerThreadWrapper.wrap(() -> {
             System.out.println("test");
             return 1;
         }, TestInvocationHandler.class));
+    }
+
+    private void runAndVerify(Runnable r) {
+        runAndVerify(r, null);
+    }
+
+    private void runAndVerify(Callable c) {
+        runAndVerify(null, c);
+    }
+
+    private void runAndVerify(Runnable r, Callable c) {
+        CountDownLatch latch = new CountDownLatch(1);
+        TestUtils.submit(r, c, latch);
         try {
-            Thread.sleep(1000);
+            latch.await();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -6,19 +6,23 @@ import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.function.Throw
 import com.google.common.collect.Maps;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Optional;
 import lombok.experimental.UtilityClass;
 
 /**
  * threadLocal变量管理器，配合ThreadLocalFilter使用
  * 适用的场景：
  * 1、多次DB查询或接口调用间不关心数据的变化，可以仅使用第一次的结果。
+ *
+ * localMap和shareMap不能同时存在，当拥有shareMap后清除localMap--提高安全性。
  * @author liuyihan
  * @since 2018/6/22
  */
 @UtilityClass
 public class ThreadLocalManager {
 
-    private final ThreadLocal<Map<String, Object>> tl = new ThreadLocal<>();
+    private final ThreadLocal<Map<String, Object>> localMapTl = new ThreadLocal<>();
+    private final ThreadLocal<Map<String, Object>> shareMapTl = new ThreadLocal<>();
     private final ThreadLocal<Boolean> switchOpen = new ThreadLocal<>();
 
     /**
@@ -36,33 +40,63 @@ public class ThreadLocalManager {
         if(val == null) {
             return;
         }
-        Map<String, Object> tlMap;
-        if((tlMap = tl.get()) == null){
-            tlMap = Maps.newHashMap();
-            tl.set(tlMap);
+        //线程内变量更新
+        Map<String, Object> targetMap = getTargetMap();
+        //若线程变量池、共享变量池都未创建，则创建变量池并赋值给线程变量池
+        if(targetMap == null){
+            targetMap = Maps.newHashMap();
+            localMapTl.set(targetMap);
         }
-        tlMap.put(key, val);
+        targetMap.put(key, val);
     }
 
     @SuppressWarnings("unchecked")
     public <T> T get(String key){
-        Map<String, Object> map = tl.get();
-        if(map == null){
-            return null;
+        Map<String, Object> targetMap = getTargetMap();
+        if(targetMap != null && targetMap.get(key) != null){
+            return (T)targetMap.get(key);
         }
-        Object obj = map.get(key);
-        return (T)obj;
+        return null;
     }
 
     public void remove(String key){
-        Map<String, Object> tlMap;
-        if((tlMap = tl.get()) != null){
-            tlMap.remove(key);
+        Map<String, Object> targetMap = getTargetMap();
+        if(targetMap != null){
+            targetMap.remove(key);
         }
     }
 
     public void clear(){
-        tl.remove();
+        localMapTl.remove();
+        shareMapTl.remove();
+    }
+
+    public Map<String,Object> getOrInitShareMap(){
+        Map<String,Object> shareMap;
+        //如果已经存在，直接返回
+        if((shareMap = shareMapTl.get())!=null){
+            return shareMap;
+        }
+        //不存在则用线程变量初始化，copy一个新的map来保证安全性
+        shareMap = Maps.newLinkedHashMap();
+        Optional.ofNullable(localMapTl).map(ThreadLocal::get).orElse(
+            Maps.newLinkedHashMap()).forEach(shareMap::put);
+        //清空线程内变量、初始化共享变量
+        localMapTl.remove();
+        shareMapTl.set(shareMap);
+        return shareMap;
+    }
+
+    public void initShareMap(Map<String,Object> sourceMap){
+        shareMapTl.set(sourceMap);
+    }
+
+    /**
+     * 获取变量管理map，有共享变量池时优先使用，否则使用本地线程变量池.
+     * @return 目标变量池
+     */
+    private Map<String,Object> getTargetMap(){
+        return Optional.ofNullable(shareMapTl.get()).orElse(localMapTl.get());
     }
 
 
@@ -95,11 +129,11 @@ public class ThreadLocalManager {
     /**
      * 清除ThreadLocal内变量，并直接调用方法，
      * 用于以下场景：
-     * 1、数据准确性要求极高，同一RPC内需多次查询
-     * 2、在更新数据前查询过，更新后又需要查询
+     *
+     * 1、在更新数据前查询过，更新后又需要查询
      * @return method result
      */
-    public <T> T applyNoCache(ApplyFunction<T> f) {
+    public <T> T clearAndApply(ApplyFunction<T> f) {
         clear();
         return f.apply();
     }
