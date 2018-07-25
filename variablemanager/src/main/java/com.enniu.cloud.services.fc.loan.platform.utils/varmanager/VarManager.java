@@ -80,8 +80,16 @@ public class VarManager {
     }
 
     public void clear(){
+        Map<String,Object> targetMap = getTargetMap();
+        if(targetMap != null) {
+            targetMap.clear();
+        }
+    }
+
+    public void threadLocalClear(){
         localMapTl.remove();
         shareMapTl.remove();
+        lockTl.remove();
     }
 
     public Pair<Map<String,Object>,ReentrantReadWriteLock> getOrInitShareMap(){
@@ -92,7 +100,7 @@ public class VarManager {
         }
         //不存在则用线程变量初始化，copy一个新的map来保证安全性
         shareMap = Maps.newLinkedHashMap();
-        Optional.ofNullable(localMapTl).map(ThreadLocal::get).orElse(
+        Optional.of(localMapTl).map(ThreadLocal::get).orElse(
             Maps.newLinkedHashMap()).forEach(shareMap::put);
         //清空线程内变量、初始化共享变量
         localMapTl.remove();

@@ -33,7 +33,7 @@ public class VarManagerFilter implements Filter {
             VarManager.open();
             filterChain.doFilter(servletRequest, servletResponse);
         }finally {
-            VarManager.clear();
+            VarManager.threadLocalClear();
             VarManager.close();
         }
     }
