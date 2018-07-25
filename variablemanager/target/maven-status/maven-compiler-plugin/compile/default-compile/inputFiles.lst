@@ -1,0 +1,13 @@
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerInvocationHandler.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/annotations/TLCache.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/filter/VarManagerFilter.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/exception/VarManagerException.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerListenerContainerFactory.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/annotations/TLClear.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ApplyFunction.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/VarManagerFunction.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/VarManager.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/VarManagerThreadWrapper.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerMessageListenerContainer.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/function/ThrowableFunction.java

@@ -7,6 +7,7 @@ import com.google.common.collect.Maps;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 import lombok.experimental.UtilityClass;
 
 /**
@@ -24,6 +25,7 @@ public class VarManager {
     private final ThreadLocal<Map<String, Object>> localMapTl = new ThreadLocal<>();
     private final ThreadLocal<Map<String, Object>> shareMapTl = new ThreadLocal<>();
     private final ThreadLocal<Boolean> switchOpen = new ThreadLocal<>();
+    private final ThreadLocal<ReentrantReadWriteLock> lockTl = new ThreadLocal<>();
 
     /**
      * 开关控制，防止未Clear
@@ -40,23 +42,34 @@ public class VarManager {
         if(val == null) {
             return;
         }
-        //线程内变量更新
-        Map<String, Object> targetMap = getTargetMap();
-        //若线程变量池、共享变量池都未创建，则创建变量池并赋值给线程变量池
-        if(targetMap == null){
-            targetMap = Maps.newHashMap();
-            localMapTl.set(targetMap);
+        try {
+            //线程内变量更新
+            Map<String, Object> targetMap = getTargetMap();
+
+            writeLock();
+            //若线程变量池、共享变量池都未创建，则创建变量池并赋值给线程变量池
+            if (targetMap == null) {
+                targetMap = Maps.newHashMap();
+                localMapTl.set(targetMap);
+            }
+            targetMap.put(key, val);
+        }finally {
+            writeUnLock();
         }
-        targetMap.put(key, val);
     }
 
     @SuppressWarnings("unchecked")
     public <T> T get(String key){
-        Map<String, Object> targetMap = getTargetMap();
-        if(targetMap != null && targetMap.get(key) != null){
-            return (T)targetMap.get(key);
+        readLock();
+        try {
+            Map<String, Object> targetMap = getTargetMap();
+            if (targetMap != null && targetMap.get(key) != null) {
+                return (T) targetMap.get(key);
+            }
+            return null;
+        }finally {
+            readUnLock();
         }
-        return null;
     }
 
     public void remove(String key){
@@ -71,11 +84,11 @@ public class VarManager {
         shareMapTl.remove();
     }
 
-    public Map<String,Object> getOrInitShareMap(){
+    public Pair<Map<String,Object>,ReentrantReadWriteLock> getOrInitShareMap(){
         Map<String,Object> shareMap;
         //如果已经存在，直接返回
         if((shareMap = shareMapTl.get())!=null){
-            return shareMap;
+            return new Pair<>(shareMap, lockTl.get());
         }
         //不存在则用线程变量初始化，copy一个新的map来保证安全性
         shareMap = Maps.newLinkedHashMap();
@@ -84,11 +97,17 @@ public class VarManager {
         //清空线程内变量、初始化共享变量
         localMapTl.remove();
         shareMapTl.set(shareMap);
-        return shareMap;
+        ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
+        lockTl.set(lock);
+        return new Pair<>(shareMap, lock);
     }
 
     public void initShareMap(Map<String,Object> sourceMap){
         shareMapTl.set(sourceMap);
+    }
+
+    public void initLock(ReentrantReadWriteLock lock){
+        lockTl.set(lock);
     }
 
     /**
@@ -97,6 +116,40 @@ public class VarManager {
      */
     private Map<String,Object> getTargetMap(){
         return Optional.ofNullable(shareMapTl.get()).orElse(localMapTl.get());
+    }
+
+    private void readLock(){
+        ReentrantReadWriteLock lock = lockTl.get();
+        if(lock == null){
+            return;
+        }
+        lock.readLock().lock();
+    }
+
+    private void readUnLock(){
+        ReentrantReadWriteLock lock = lockTl.get();
+        if(lock == null){
+            return;
+        }
+        lock.readLock().unlock();
+    }
+
+    private void writeLock(){
+        ReentrantReadWriteLock lock = lockTl.get();
+        if(lock == null){
+            return;
+        }
+        lock.writeLock().lock();
+    }
+
+    private void writeUnLock(){
+        ReentrantReadWriteLock lock = lockTl.get();
+        if(lock == null){
+            return;
+        }
+        if(lock.isWriteLockedByCurrentThread()){
+            lock.writeLock().unlock();
+        }
     }
 
 
@@ -112,14 +165,14 @@ public class VarManager {
 
         T result = get(key);
         //如果map中存在直接返回
-        if(result != null){
+        if (result != null) {
             return result;
         }
         //否则查询并返回
         try {
             result = f.apply();
-        }finally {
-            if(result != null){
+        } finally {
+            if (result != null) {
                 put(key, result);
             }
         }

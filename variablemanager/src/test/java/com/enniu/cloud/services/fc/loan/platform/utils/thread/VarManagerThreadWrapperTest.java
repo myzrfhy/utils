@@ -1,6 +1,7 @@
 package com.enniu.cloud.services.fc.loan.platform.utils.thread;
 
 import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.thread.VarManagerThreadWrapper;
+import com.google.common.collect.Lists;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CountDownLatch;
 import org.junit.Test;
@@ -54,7 +55,7 @@ public class VarManagerThreadWrapperTest extends PowerMockBase {
 
     private void runAndVerify(Runnable r, Callable c) {
         CountDownLatch latch = new CountDownLatch(1);
-        TestUtils.submit(r, c, latch);
+        TestUtils.submit(Lists.newArrayList(r), Lists.newArrayList(c), latch);
         try {
             latch.await();
         } catch (InterruptedException e) {

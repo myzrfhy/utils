@@ -1,0 +1,4 @@
+com/enniu/cloud/services/fc/loan/platform/utils/varmanager/filter/VarManagerFilter.class
+com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/VarManagerListenerContainerFactory.class
+com/enniu/cloud/services/fc/loan/platform/utils/varmanager/aop/VarManagerAspect.class
+com/enniu/cloud/services/fc/loan/platform/utils/varmanager/factory/VarManagerMessageListenerContainer.class

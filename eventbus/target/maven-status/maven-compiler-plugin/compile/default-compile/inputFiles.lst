@@ -1,0 +1,4 @@
+/Users/liuyihan/Project/fc-loan-platform-utils/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/LocalEventDispatcher.java
+/Users/liuyihan/Project/fc-loan-platform-utils/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/EventDispatcher.java
+/Users/liuyihan/Project/fc-loan-platform-utils/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/KafkaEventDispatcher.java
+/Users/liuyihan/Project/fc-loan-platform-utils/eventbus/src/main/java/com/enniu/cloud/services/fc/loan/platform/utils/eventbus/dispatcher/impl/RabbitMqEventDispatcher.java

@@ -1,6 +1,6 @@
 package com.enniu.cloud.services.fc.loan.platform.utils.varmanager.thread;
 
-import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.ThreadLocalManager;
+import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.VarManager;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import lombok.AllArgsConstructor;
@@ -22,7 +22,7 @@ public class VarManagerInvocationHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        ThreadLocalManager.open();
+        VarManager.open();
         if (log.isDebugEnabled()) {
             log.debug("[线程变量管理器]开启成功");
         }
@@ -32,8 +32,8 @@ public class VarManagerInvocationHandler implements InvocationHandler {
             result = method.invoke(target, args);
             afterInvoke();
         } finally {
-            ThreadLocalManager.clear();
-            ThreadLocalManager.close();
+            VarManager.clear();
+            VarManager.close();
             if (log.isDebugEnabled()) {
                 log.debug("[线程变量管理器]清除并关闭成功");
             }
