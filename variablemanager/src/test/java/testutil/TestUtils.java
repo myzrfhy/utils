@@ -52,8 +52,6 @@ public class TestUtils {
         return () -> {
             try {
                 r.run();
-            } catch (Exception e) {
-                e.printStackTrace();
             } finally {
                 latch.countDown();
             }
@@ -64,12 +62,16 @@ public class TestUtils {
         return () -> {
             try {
                 return c.call();
-            } catch (Exception e) {
-                e.printStackTrace();
             } finally {
                 latch.countDown();
             }
-            return null;
         };
+    }
+
+    public static class Print{
+        public String print(String key){
+            System.out.println("test");
+            return key;
+        }
     }
 }

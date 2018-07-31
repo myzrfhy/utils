@@ -30,9 +30,8 @@ public class VarManagerInvocationHandler implements InvocationHandler {
         try {
             beforeInvoke();
             result = method.invoke(target, args);
-            afterInvoke();
         } finally {
-            VarManager.clear();
+            VarManager.threadLocalClear();
             VarManager.close();
             if (log.isDebugEnabled()) {
                 log.debug("[线程变量管理器]清除并关闭成功");
@@ -41,11 +40,11 @@ public class VarManagerInvocationHandler implements InvocationHandler {
         return result;
     }
 
-    protected void beforeInvoke() {
-        //do something
+    protected void beforeInvoke(){
+        //do nothing
     }
 
-    protected void afterInvoke() {
-        //do something
+    protected void afterInvoke(){
+        //do nothing
     }
 }

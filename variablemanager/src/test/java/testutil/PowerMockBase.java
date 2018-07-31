@@ -1,6 +1,6 @@
 package testutil;
 
-import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.ThreadLocalManager;
+import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.VarManager;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.powermock.api.mockito.PowerMockito;
@@ -14,7 +14,7 @@ import org.powermock.modules.junit4.PowerMockRunner;
  */
 @RunWith(PowerMockRunner.class)
 @PowerMockIgnore("javax.management.*")
-@PrepareForTest({ThreadLocalManager.class})
+@PrepareForTest({VarManager.class})
 public abstract class PowerMockBase {
 
     @Before
@@ -23,6 +23,6 @@ public abstract class PowerMockBase {
     }
 
     protected void postSetUp(){
-        PowerMockito.mockStatic(ThreadLocalManager.class);
+        PowerMockito.mockStatic(VarManager.class);
     }
 }

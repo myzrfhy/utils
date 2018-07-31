@@ -5,6 +5,7 @@ import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.VarManager;
 import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.exception.VarManagerException;
 import java.lang.reflect.Proxy;
 import java.util.Map;
+import java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
@@ -19,43 +20,42 @@ import lombok.experimental.UtilityClass;
 public class VarManagerThreadWrapper {
 
     @SuppressWarnings("unchecked")
-    public <T> T wrap(T o){
-        if(o instanceof Runnable){
-            return (T)wrap((Runnable) o);
-        } else if (o instanceof Callable){
-            return (T)wrap((Callable) o);
+    public <T> T wrap(T o) {
+        Objects.requireNonNull(o);
+        if (o instanceof ExecutorService) {
+            return (T) new ExecutorMethodInterceptor(o, false).getInstance();
+        }
+
+        if (o instanceof Runnable || o instanceof Callable) {
+            return (T) Proxy.newProxyInstance(o.getClass().getClassLoader(), o.getClass().getInterfaces(),
+                new VarManagerInvocationHandler(o));
         }
         return o;
     }
 
     @SuppressWarnings("unchecked")
-    public Runnable wrap(Runnable r) {
-        return (Runnable) Proxy.newProxyInstance(r.getClass().getClassLoader(), r.getClass().getInterfaces(),
-            new VarManagerInvocationHandler(r));
-    }
-
-    @SuppressWarnings("unchecked")
-    public <C extends VarManagerInvocationHandler> Runnable wrap(Runnable r, Class<C> invocationHandlerClass) {
-        return (Runnable) Proxy.newProxyInstance(r.getClass().getClassLoader(), r.getClass().getInterfaces(),
+    public <T, C extends VarManagerInvocationHandler> T wrap(T r, Class<C> invocationHandlerClass) {
+        return (T) Proxy.newProxyInstance(r.getClass().getClassLoader(), r.getClass().getInterfaces(),
             invocationHandlerInit(r, invocationHandlerClass));
     }
 
     @SuppressWarnings("unchecked")
-    public Callable wrap(Callable r) {
-        return (Callable) Proxy.newProxyInstance(r.getClass().getClassLoader(), r.getClass().getInterfaces(),
-            new VarManagerInvocationHandler(r));
+    public <T> T multiShareWrap(T o) {
+        Objects.requireNonNull(o);
+        if (o instanceof ExecutorService) {
+            return (T) new ExecutorMethodInterceptor(o, true).getInstance();
+        }
+
+        //parent线程与child线程分享共享变量
+        Pair<Map<String, Object>, ReentrantReadWriteLock> pair = VarManager.getOrInitShareMap();
+        if (o instanceof Runnable) {
+            return (T) wrap(new MultiSharingRunnable((Runnable) o, pair.getLeft(), pair.getRight()));
+        } else if (o instanceof Callable) {
+            return (T) wrap(new MultiSharingCallable((Callable) o, pair.getLeft(), pair.getRight()));
+        }
+        return o;
     }
 
-    @SuppressWarnings("unchecked")
-    public <C extends VarManagerInvocationHandler> Callable wrap(Callable r, Class<C> invocationHandlerClass) {
-        return (Callable) Proxy.newProxyInstance(r.getClass().getClassLoader(), r.getClass().getInterfaces(),
-            invocationHandlerInit(r, invocationHandlerClass));
-    }
-
-    public ExecutorService wrap(ExecutorService s){
-        return (ExecutorService) Proxy.newProxyInstance(s.getClass().getClassLoader(), s.getClass().getInterfaces(),
-            new ExecutorInvocationHandler(s, false));
-    }
 
     private <C extends VarManagerInvocationHandler> VarManagerInvocationHandler invocationHandlerInit(Object r,
         Class<C> invocationHandlerClass) {
@@ -72,39 +72,11 @@ public class VarManagerThreadWrapper {
         }
     }
 
-    @SuppressWarnings("unchecked")
-    public <T> T multiShareWrap(T o){
-        if(o instanceof Runnable){
-            return (T)multiShareWrap((Runnable) o);
-        } else if (o instanceof Callable){
-            return (T)multiShareWrap((Callable) o);
-        }
-        return o;
-    }
-
-
-    public Runnable multiShareWrap(Runnable r){
-        //parent线程与child线程分享共享变量
-        Pair<Map<String,Object>,ReentrantReadWriteLock> pair = VarManager.getOrInitShareMap();
-        return wrap(new MultiSharingRunnable(r, pair.getLeft(), pair.getRight()));
-    }
-
-    public Callable multiShareWrap(Callable r){
-        //parent线程与child线程分享共享变量
-        Pair<Map<String,Object>,ReentrantReadWriteLock> pair = VarManager.getOrInitShareMap();
-        return wrap(new MultiSharingCallable(r, pair.getLeft(), pair.getRight()));
-    }
-
-    public ExecutorService multiShareWrap(ExecutorService s){
-        return (ExecutorService) Proxy.newProxyInstance(s.getClass().getClassLoader(), s.getClass().getInterfaces(),
-            new ExecutorInvocationHandler(s, true));
-    }
-
     @AllArgsConstructor
-    private class MultiSharingRunnable implements Runnable{
+    private class MultiSharingRunnable implements Runnable {
 
         Runnable r;
-        Map<String,Object> sharingVarMap;
+        Map<String, Object> sharingVarMap;
         ReentrantReadWriteLock lock;
 
         @Override
@@ -116,10 +88,10 @@ public class VarManagerThreadWrapper {
     }
 
     @AllArgsConstructor
-    private class MultiSharingCallable<T> implements Callable<T>{
+    private class MultiSharingCallable<T> implements Callable<T> {
 
         Callable c;
-        Map<String,Object> sharingVarMap;
+        Map<String, Object> sharingVarMap;
         ReentrantReadWriteLock lock;
 
         @Override
@@ -127,7 +99,7 @@ public class VarManagerThreadWrapper {
         public T call() throws Exception {
             VarManager.initShareMap(sharingVarMap);
             VarManager.initLock(lock);
-            return (T)c.call();
+            return (T) c.call();
         }
     }
 }
