@@ -11,10 +11,11 @@ import testutil.TestInvocationHandler;
 import testutil.TestUtils;
 
 /**
+ * Varmanager代理功能测试.
  * @author liuyihan
  * @since 2018/7/6
  */
-public class VarManagerThreadWrapperTest extends PowerMockBase {
+public class VarManagerThreadWrapperProxyTest extends PowerMockBase {
 
     @Test
     @SuppressWarnings("unchecked")
