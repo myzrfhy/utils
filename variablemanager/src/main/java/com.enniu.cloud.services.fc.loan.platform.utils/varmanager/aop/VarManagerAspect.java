@@ -49,11 +49,11 @@ public class VarManagerAspect {
         Method method = signature.getMethod();
         method.setAccessible(true);
         TLClear tlClear = method.getAnnotation(TLClear.class);
-
         String key = tlClear.key();
-        //如果没有指定key，则清除所有
+        //如果没有指定key，则清除所有以目标类名起始的缓存
         if (StringUtils.isBlank(key)) {
-            VarManager.clear();
+            String prefix = joinPoint.getTarget().getClass().getSimpleName();
+            VarManager.clearThisCls(prefix);
         } else {
             VarManager.remove(key);
         }

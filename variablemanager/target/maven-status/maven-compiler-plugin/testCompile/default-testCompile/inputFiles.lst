@@ -1,6 +1,8 @@
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerTest.java
 /Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/testutil/PowerMockBase.java
 /Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/testutil/TestUtils.java
 /Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/testutil/TestInvocationHandler.java
 /Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperTest.java
 /Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/testutil/MockBase.java
 /Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/MultiSharingTest.java
+/Users/liuyihan/Project/fc-loan-platform-utils/variablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperProxyTest.java

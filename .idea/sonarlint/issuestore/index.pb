@@ -69,3 +69,13 @@ uvariablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/t
 ˆvariablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/factory/VarManagerListenerContainerFactory.java,8/3/8353a662c6528dd6fd0cf455f328e7ced21b11bc
 ˜
 hvariablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/VarManager.java,b/c/bce59c0c152d12b556b11e747bf822b4e32884d5
+®
+~variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/thread/ExecutorMethodInterceptor.java,a/c/ac427e682558ef92295c2efe02899d4ff5238819
+q
+Avariablemanager/src/test/java/testutil/TestInvocationHandler.java,1/0/101cd62292d0dbd1ed5ab4fca4be1dd3795f366a
+d
+4variablemanager/src/test/java/testutil/MockBase.java,b/2/b2fea1950358345bfd9dedb8dc5f86c41c33a877
+i
+9variablemanager/src/test/java/testutil/PowerMockBase.java,3/7/37654cd8899faf54c4b74ae9bfae7160665e6721
+ª
+zvariablemanager/src/test/java/com/enniu/cloud/services/fc/loan/platform/utils/thread/VarManagerThreadWrapperProxyTest.java,c/4/c47dc648a7ce9f4d379dceaeebf59c594f39502f

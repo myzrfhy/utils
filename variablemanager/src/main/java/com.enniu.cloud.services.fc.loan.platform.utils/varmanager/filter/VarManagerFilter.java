@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
  * @since 2018/6/22
  */
 @Component
-@Order(Ordered.LOWEST_PRECEDENCE)
+@Order(Ordered.HIGHEST_PRECEDENCE)
 public class VarManagerFilter implements Filter {
 
 

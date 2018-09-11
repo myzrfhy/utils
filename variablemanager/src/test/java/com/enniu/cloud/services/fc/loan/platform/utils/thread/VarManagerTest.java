@@ -89,28 +89,34 @@ public class VarManagerTest extends MockBase{
 
     @Test
     public void remove(){
+        VarManager.open();
         VarManager.put("aaa", "ssss");
         Assert.assertEquals("ssss", VarManager.get("aaa"));
         VarManager.remove("aaa");
         Assert.assertNull(VarManager.get("aaa"));
+        VarManager.close();
     }
 
     @Test
     public void clear(){
+        VarManager.open();
         String key = String.valueOf(System.currentTimeMillis());
         Long value = System.currentTimeMillis();
         VarManager.put(String.valueOf(key), value);
         VarManager.clear();
         VarManager.get(key);
+        VarManager.close();
     }
 
     @Test
     public void threadLocalClear(){
+        VarManager.open();
         String key = String.valueOf(System.currentTimeMillis());
         Long value = System.currentTimeMillis();
         VarManager.put(String.valueOf(key), value);
         VarManager.threadLocalClear();
         VarManager.get(key);
+        VarManager.close();
     }
 
     private class Print{

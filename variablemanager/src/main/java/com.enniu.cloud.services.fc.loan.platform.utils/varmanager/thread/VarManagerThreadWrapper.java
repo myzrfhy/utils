@@ -1,6 +1,5 @@
 package com.enniu.cloud.services.fc.loan.platform.utils.varmanager.thread;
 
-import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.Pair;
 import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.VarManager;
 import com.enniu.cloud.services.fc.loan.platform.utils.varmanager.exception.VarManagerException;
 import java.lang.reflect.Proxy;
@@ -8,7 +7,6 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 import lombok.AllArgsConstructor;
 import lombok.experimental.UtilityClass;
 
@@ -47,11 +45,11 @@ public class VarManagerThreadWrapper {
         }
 
         //parent线程与child线程分享共享变量
-        Pair<Map<String, Object>, ReentrantReadWriteLock> pair = VarManager.getOrInitShareMap();
+        Map<String, Object> map = VarManager.getOrInitShareMap();
         if (o instanceof Runnable) {
-            return (T) wrap(new MultiSharingRunnable((Runnable) o, pair.getLeft(), pair.getRight()));
+            return (T) wrap(new MultiSharingRunnable((Runnable) o, map));
         } else if (o instanceof Callable) {
-            return (T) wrap(new MultiSharingCallable((Callable) o, pair.getLeft(), pair.getRight()));
+            return (T) wrap(new MultiSharingCallable((Callable) o, map));
         }
         return o;
     }
@@ -77,12 +75,10 @@ public class VarManagerThreadWrapper {
 
         Runnable r;
         Map<String, Object> sharingVarMap;
-        ReentrantReadWriteLock lock;
 
         @Override
         public void run() {
             VarManager.initShareMap(sharingVarMap);
-            VarManager.initLock(lock);
             r.run();
         }
     }
@@ -92,13 +88,11 @@ public class VarManagerThreadWrapper {
 
         Callable c;
         Map<String, Object> sharingVarMap;
-        ReentrantReadWriteLock lock;
 
         @Override
         @SuppressWarnings("unchecked")
         public T call() throws Exception {
             VarManager.initShareMap(sharingVarMap);
-            VarManager.initLock(lock);
             return (T) c.call();
         }
     }
