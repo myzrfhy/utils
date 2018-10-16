@@ -35,7 +35,9 @@ public class VarManagerAspect {
             StringBuilder sb = new StringBuilder();
             sb.append(joinPoint.getTarget().getClass().getSimpleName()).append(":").append(method.getName()).append(":");
             for (Object o : joinPoint.getArgs()) {
-                sb.append(o.toString()).append(":");
+                if(o != null) {
+                    sb.append(o.toString()).append(":");
+                }
             }
             key = sb.toString();
         }
