@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9809628f-b34e-4e92-b87c-9ca8113947d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c04b31128df2194f9fbb6cf6a2c90c23eea3248e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c04b31128df2194f9fbb6cf6a2c90c23eea3248e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9553103635fb26ec10ddd54aaa5e7d40aac4857" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9553103635fb26ec10ddd54aaa5e7d40aac4857" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java" afterPath="$PROJECT_DIR$/variablemanager/src/main/java/com.enniu.cloud.services.fc.loan.platform.utils/varmanager/aop/VarManagerAspect.java" />
-    </list>
+    <list default="true" id="9809628f-b34e-4e92-b87c-9ca8113947d6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eventbus/target/" />
@@ -1341,7 +1336,7 @@
       <workItem from="1537169765772" duration="3286000" />
       <workItem from="1538971598953" duration="853000" />
       <workItem from="1539336120747" duration="427000" />
-      <workItem from="1539673291831" duration="1360000" />
+      <workItem from="1539673291831" duration="1463000" />
     </task>
     <servers />
   </component>
@@ -1378,7 +1373,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121032000" />
+    <option name="totallyTimeSpent" value="121135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
